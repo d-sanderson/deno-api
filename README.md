@@ -16,7 +16,7 @@
     Navigate into the project's directory and start it up.
 
     ```shell
-    deno run --allow-env --allow-net --allow-read --allow-delete index.tsx
+    deno run --allow-env --allow-net --allow-read index.tsx
     ```
 
 
