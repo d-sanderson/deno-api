@@ -13,7 +13,7 @@
 
 1.  **Start developing.**
 
-    Navigate into your the project's directory and start it up.
+    Navigate into the project's directory and start it up.
 
     ```shell
     deno run --allow-env --allow-net --allow-read --allow-delete index.tsx
