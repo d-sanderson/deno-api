@@ -1,8 +1,23 @@
 # deno-api
 
-# PRE-REQUISITES: 
- - Install [Deno](https://deno.land/#installation); 
 
-TO RUN
+## 🚀 Quick start
 
-deno run --allow-env --allow-net --allow-read --allow-delete index.tsx
+1.  **Install Deno.**
+
+    # Install [Deno](https://deno.land/#installation); 
+    i.e
+    ```shell
+    choco install deno
+    ```
+
+1.  **Start developing.**
+
+    Navigate into your the project's directory and start it up.
+
+    ```shell
+    deno run --allow-env --allow-net --allow-read --allow-delete index.tsx
+    ```
+
+
+
