@@ -1,7 +1,9 @@
 import { Application, Router } from "https://deno.land/x/oak/mod.ts";
 
 const data = JSON.parse(Deno.readTextFileSync("./quotes.json"));
-const env = Deno.env.toObject();
+import { config } from "https://deno.land/x/dotenv/mod.ts";
+const env = config();
+
 const PORT = env.PORT || 4000;
 const HOST = env.HOST || "127.0.0.1";
 import { getQuotes, addQuote, removeQuote, updateQuote, getQuotesByCharacter} from "./controllers/QuotesController.tsx";
